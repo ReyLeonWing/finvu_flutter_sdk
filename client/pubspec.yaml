@@ -13,7 +13,10 @@ dependencies:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
   finvu_flutter_sdk_core:
-    path: ./../core
+    git:
+      url: https://github.com/ReyLeonWing/finvu_flutter_sdk.git
+      path: core
+      ref: main
 
 dev_dependencies:
   flutter_test:
